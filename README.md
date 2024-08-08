@@ -1,1 +1,1 @@
-# Pathfinding-Visualizer-DFS-BFS-Dijkstra-A-
+# Pathfinding-Visualizer(DFS-BFS-Dijkstra-A*)

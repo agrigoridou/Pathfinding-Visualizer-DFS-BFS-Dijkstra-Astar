@@ -20,19 +20,20 @@ To install the required libraries, run the following command:
 pip install pygame
 
 ## Installation Instructions
-Clone the repository or download the files.
-Ensure that you have installed the prerequisites.
-Run main.py to start the application.
+- Clone the repository or download the files.
+- Ensure that you have installed the prerequisites.
+- Run main.py to start the application.
 
 ## Usage Instructions
-Starting: Once the application starts, a grid will appear.
-Placing Walls: Use right-click to place walls and left-click to set the start or end point.
-Running Algorithms: Press the Enter key to select an algorithm and then press the corresponding buttons for DFS, BFS, Dijkstra, or A* to view their visualization.
-Random Mazes: Click the "Random Maze" button to generate a random maze.
-Clearing: Use the "Clear" button to remove all walls and reset the grid.
-Code Structure
-main.py: The entry point of the application.
-gui.py: Contains the Gui class that manages the graphical user interface and interactions.
-pathfinding_algorithms: Folder containing the code for the pathfinding algorithms and maze handling.
-coordinates.py: Contains the Coordinates class for managing the maze and the algorithms' paths.
-pathfinding.py: Contains the Pathfinding class with methods implementing the DFS, BFS, Dijkstra, and A* algorithms.
+- Starting: Once the application starts, a grid will appear.
+- Placing Walls: Use right-click to place walls and left-click to set the start or end point.
+- Running Algorithms: Press the Enter key to select an algorithm and then press the corresponding buttons for DFS, BFS, Dijkstra, or A* to view their visualization.
+- Random Mazes: Click the "Random Maze" button to generate a random maze.
+- Clearing: Use the "Clear" button to remove all walls and reset the grid.
+
+## Code Structure
+- main.py: The entry point of the application.
+- gui.py: Contains the Gui class that manages the graphical user interface and interactions.
+- pathfinding_algorithms: Folder containing the code for the pathfinding algorithms and maze handling.
+- coordinates.py: Contains the Coordinates class for managing the maze and the algorithms' paths.
+- pathfinding.py: Contains the Pathfinding class with methods implementing the DFS, BFS, Dijkstra, and A* algorithms.

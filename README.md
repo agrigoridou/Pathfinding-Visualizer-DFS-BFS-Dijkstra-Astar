@@ -1,6 +1,6 @@
 # Pathfinding-Visualizer(DFS-BFS-Dijkstra-A*)
 
-is a tool for visualizing pathfinding algorithms, allowing users to create mazes and watch their solution using popular algorithms such as DFS, BFS, Dijkstra, and A*.
+A tool for visualizing pathfinding algorithms, allowing users to create mazes and watch their solution using popular algorithms such as DFS, BFS, Dijkstra, and A*.
 
 ## Features
 - **Algorithm Visualization:** See in real-time how DFS, BFS, Dijkstra, and A* algorithms search for a path through a maze.

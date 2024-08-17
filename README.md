@@ -46,7 +46,7 @@ pip install pygame
 
 
 
-### Example Results
+## Example Results
 
 | DFS | BFS | Dijkstra | A* |
 |:---:|:---:|:--------:|:--:|

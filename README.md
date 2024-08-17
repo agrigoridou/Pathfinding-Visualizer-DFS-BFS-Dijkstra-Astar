@@ -43,8 +43,15 @@ pip install pygame
 - **coordinates.py:** Contains the Coordinates class for managing the maze and the algorithms' paths.
 - **pathfinding.py:** Contains the Pathfinding class with methods implementing the DFS, BFS, Dijkstra, and A* algorithms.
 
-  
-![Astar](https://github.com/user-attachments/assets/ae5c62e8-1a36-46ae-b872-f641750dc91b)
-![dijkstra](https://github.com/user-attachments/assets/b6bf6a32-db8e-4c0d-b2a3-865e4edca30a)
-![dfs](https://github.com/user-attachments/assets/c35ba312-ea29-474d-be7d-2e83f09ef858)
-![bfs](https://github.com/user-attachments/assets/9bb4a534-c2b2-4576-9bd4-21d138f71638)
+
+### Example Results
+
+<div align="center">
+    <img src="https://github.com/user-attachments/assets/ae5c62e8-1a36-46ae-b872-f641750dc91b" alt="Example GIF">
+    <img src="https://github.com/user-attachments/assets/b6bf6a32-db8e-4c0d-b2a3-865e4edca30a" alt="Example GIF">
+    <img src="https://github.com/user-attachments/assets/c35ba312-ea29-474d-be7d-2e83f09ef858" alt="Example GIF">
+    <img src="https://github.com/user-attachments/assets/9bb4a534-c2b2-4576-9bd4-21d138f71638" alt="Example GIF">
+</div>
+
+
+

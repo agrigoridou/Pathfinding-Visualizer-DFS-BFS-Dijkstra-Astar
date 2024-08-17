@@ -164,18 +164,24 @@ class Gui():
                 else:
                     pygame.draw.rect(self.win, (200, 200, 200), (x * self.box_width, y * self.box_width, self.box_width, self.box_width), 1)
 
-        # Draw open list nodes
+        # Draw open list nodes with transparency
         for node in self.coords.open_list:
-            pygame.draw.rect(self.win, (0, 255, 255), (node.position[0] * self.box_width, node.position[1] * self.box_width, self.box_width, self.box_width))
+            transparent_surface = pygame.Surface((self.box_width, self.box_width), pygame.SRCALPHA)
+            transparent_surface.fill((0, 255, 255, 128))  # RGBA where A (Alpha) is set to 128 (50% transparency)
+            self.win.blit(transparent_surface, (node.position[0] * self.box_width, node.position[1] * self.box_width))
 
-        # Draw closed list nodes
+        # Draw closed list nodes with transparency
         for node in self.coords.closed_list:
-            pygame.draw.rect(self.win, (0, 0, 255), (node.position[0] * self.box_width, node.position[1] * self.box_width, self.box_width, self.box_width))
+            transparent_surface = pygame.Surface((self.box_width, self.box_width), pygame.SRCALPHA)
+            transparent_surface.fill((0, 0, 255, 128))  # RGBA where A (Alpha) is set to 128 (50% transparency)
+            self.win.blit(transparent_surface, (node.position[0] * self.box_width, node.position[1] * self.box_width))
 
-        # Draw final path
+        # Draw final path with transparency
         final_path = self.coords.final_path if self.coords.final_path is not None else []
         for node in final_path:
-            pygame.draw.rect(self.win, (255, 255, 0), (node[0] * self.box_width, node[1] * self.box_width, self.box_width, self.box_width))
+            transparent_surface = pygame.Surface((self.box_width, self.box_width), pygame.SRCALPHA)
+            transparent_surface.fill((255, 255, 0, 128))  # RGBA where A (Alpha) is set to 128 (50% transparency)
+            self.win.blit(transparent_surface, (node[0] * self.box_width, node[1] * self.box_width))
 
         # Draw buttons
         for name, rect in self.buttons.items():

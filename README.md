@@ -48,21 +48,10 @@ pip install pygame
 
 ### Example Results
 
-<div align="center">
-  
-### DFS
-<img src="https://github.com/user-attachments/assets/ae5c62e8-1a36-46ae-b872-f641750dc91b" alt="DFS Example GIF">
+| DFS | BFS | Dijkstra | A* |
+|:---:|:---:|:--------:|:--:|
+| ![DFS Example GIF](https://github.com/user-attachments/assets/ae5c62e8-1a36-46ae-b872-f641750dc91b) | ![BFS Example GIF](https://github.com/user-attachments/assets/b6bf6a32-db8e-4c0d-b2a3-865e4edca30a) | ![Dijkstra Example GIF](https://github.com/user-attachments/assets/c35ba312-ea29-474d-be7d-2e83f09ef858) | ![A* Example GIF](https://github.com/user-attachments/assets/9bb4a534-c2b2-4576-9bd4-21d138f71638) |
 
-### BFS
-<img src="https://github.com/user-attachments/assets/b6bf6a32-db8e-4c0d-b2a3-865e4edca30a" alt="BFS Example GIF">
-
-### Dijkstra
-<img src="https://github.com/user-attachments/assets/c35ba312-ea29-474d-be7d-2e83f09ef858" alt="Dijkstra Example GIF">
-
-### A*
-<img src="https://github.com/user-attachments/assets/9bb4a534-c2b2-4576-9bd4-21d138f71638" alt="A* Example GIF">
-
-</div>
 
 
 

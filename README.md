@@ -2,7 +2,9 @@
 
 A tool for visualizing pathfinding algorithms, allowing users to create mazes and watch their solution using popular algorithms such as DFS, BFS, Dijkstra, and A*.
 
-![Screenshot 2024-08-17 195154](https://github.com/user-attachments/assets/e777c7fb-d3ce-4861-a350-74cc0bfcc28d)
+<div align="center">
+    <img src="https://github.com/user-attachments/assets/e777c7fb-d3ce-4861-a350-74cc0bfcc28d" alt="image">
+</div>
 
 ## Features
 - **Algorithm Visualization:** See in real-time how DFS, BFS, Dijkstra, and A* algorithms search for a path through a maze.

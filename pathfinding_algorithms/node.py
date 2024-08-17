@@ -2,6 +2,7 @@ class Node:
     def __init__(self, parent, position):
         self.parent = parent  # Parent node in the pathfinding tree
         self.position = (int(position[0]), int(position[1]))  # Position of the node in the maze, converted to integers
+        self.g = 0  # Cost from start node to this node
         self.h = 0  # Heuristic cost (used in A* algorithm)
         self.f = 0  # Total cost (g + h) used in pathfinding algorithms
 

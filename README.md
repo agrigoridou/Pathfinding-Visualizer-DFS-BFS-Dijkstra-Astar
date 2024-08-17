@@ -3,7 +3,7 @@
 A tool for visualizing pathfinding algorithms, allowing users to create mazes and watch their solution using popular algorithms such as DFS, BFS, Dijkstra, and A*.
 
 <div align="center">
-    <img src="https://github.com/user-attachments/assets/e777c7fb-d3ce-4861-a350-74cc0bfcc28d" alt="image">
+    <img src="https://github.com/user-attachments/assets/e777c7fb-d3ce-4861-a350-74cc0bfcc28d" alt="image"height="200" >
 </div>
 
 ## Features

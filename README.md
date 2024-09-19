@@ -6,7 +6,11 @@ Visualization of pathfinding algorithms, allowing users to create mazes and trac
     <img src="https://github.com/user-attachments/assets/e777c7fb-d3ce-4861-a350-74cc0bfcc28d" alt="image" width = "500" height="500" >
 </div>
 
-https://github.com/user-attachments/assets/ae5c62e8-1a36-46ae-b872-f641750dc91b
+
+
+<div align="center">
+    <img src="https://github.com/user-attachments/assets/ae5c62e8-1a36-46ae-b872-f641750dc91b" alt="Example GIF" >
+</div>
 
 ## Features
 - **Algorithm Visualization:** See in real-time how DFS, BFS, Dijkstra, and A* algorithms search for a path through a maze.

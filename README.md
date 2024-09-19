@@ -9,7 +9,7 @@ Visualization of pathfinding algorithms, allowing users to create mazes and trac
 
 
 <div align="center">
-    <img src="https://github.com/user-attachments/assets/ae5c62e8-1a36-46ae-b872-f641750dc91b" alt="Example GIF" >
+    <img src="https://github.com/user-attachments/assets/ae5c62e8-1a36-46ae-b872-f641750dc91b" alt="Example GIF" width = "500" height="500">
 </div>
 
 ## Features
